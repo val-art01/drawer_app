@@ -24,6 +24,7 @@ git clone https://github.com/val-art01/drawer_app.git
 cd drawer_app
 flutter pub get
 flutter run
+```
 
 ## 📁 Structure du projet
 lib/
