@@ -1,16 +1,37 @@
-# drawer
+# Flutter Drawer
 
-A new Flutter project.
+Une application Flutter simple qui démontre l'intégration d'un **Menu Drawer (menu latéral)** pour permettre la navigation entre différentes pages.
 
-## Getting Started
+## 🧱 Fonctionnalités
 
-This project is a starting point for a Flutter application.
+- Menu Drawer avec `UserAccountsDrawerHeader`
+- Navigation entre plusieurs pages à l'aide de `Navigator`
+- Utilisation de `ListTile`, `ExpansionTile` et `PopupMenuButton`
+- Code clair et structuré pour un apprentissage ou une réutilisation rapide
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Aperçu (à venir)
+<!-- Tu pourras insérer ici une capture d'écran ou un GIF de ton app -->
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Lancer l'application
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prérequis :
+- Flutter SDK installé
+- Un émulateur Android/iOS ou un appareil connecté
+
+### Étapes :
+```bash
+git clone https://github.com/val-art01/drawer_app.git
+cd drawer_app
+flutter pub get
+flutter run
+
+## 📁 Structure du projet
+lib/
+├── main.dart           # Point d'entrée de l'application
+├── pages/
+│   ├── home_page.dart
+│   ├── settings_page.dart
+│   └── ...
+├── widgets/
+│   └── custom_drawer.dart
+
